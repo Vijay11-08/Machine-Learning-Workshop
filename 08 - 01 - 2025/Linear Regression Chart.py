@@ -9,8 +9,10 @@ y = np.array([5, 7, 9, 11, 13])
 coefficients = np.polyfit(x, y, 1)  # 1 for linear (degree 1)
 regression_line = np.poly1d(coefficients)
 
+
 # Step 4: generate x values for the line
 x_line = x
+
 
 # Step 5: Calculate y values for the line
 y_line = regression_line(x_line)

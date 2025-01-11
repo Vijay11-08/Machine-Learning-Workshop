@@ -25,6 +25,7 @@ for degree in degrees:
     model.fit(x_poly, y)
     y_pred = model.predict(x_poly)
 
+
     # Plot polynomial fit
     plt.plot(x, y_pred, label=f'Degree {degree} (MSE: {mean_squared_error(y, y_pred):.2f})')
 

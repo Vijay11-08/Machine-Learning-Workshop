@@ -31,6 +31,7 @@ plt.contour(xx, yy, Z, colors='k', levels=[-1, 0, 1], alpha=0.5, linestyles=['--
 # Highlight support vectors
 plt.scatter(svm_model.support_vectors_[:, 0], svm_model.support_vectors_[:, 1], s=200, facecolors='none', edgecolors='black', linewidth=2, label="Support Vectors")
 
+
 # Add labels and title
 plt.title("SVM Hyperplane and Support Vectors (2D Example)")
 plt.xlabel("Feature 1")

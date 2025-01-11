@@ -39,6 +39,7 @@ ax = fig.add_subplot(111, projection='3d')
 # Plot original data points
 ax.scatter(X1, X2, Y, color='red', label='Actual Data')
 
+
 # Plot regression plane
 X1_grid, X2_grid = np.meshgrid(np.linspace(1, 5, 10), np.linspace(2, 10, 10))
 Y_grid = b0 + b1 * X1_grid + b2 * X2_grid

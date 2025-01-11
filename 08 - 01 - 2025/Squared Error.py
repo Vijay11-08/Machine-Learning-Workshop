@@ -18,5 +18,6 @@ plt.title('Loss Function Visualization (Squared Errors)')
 plt.xlabel('x (Input Data)')
 plt.ylabel('Squared Error')
 plt.legend()
+
 plt.grid(True)
 plt.show()

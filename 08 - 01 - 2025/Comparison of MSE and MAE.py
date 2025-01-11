@@ -17,4 +17,5 @@ plt.xlabel('Predicted Value (y_pred)')
 plt.ylabel('Loss')
 plt.title('Comparison of MSE and MAE')
 plt.legend()
+
 plt.show()

@@ -5,6 +5,7 @@ x = np.array([2, 3, 4, 5, 6])
 y = np.array([10, 14, 18, 22, 26])
 
 # Hyperparameters
+
 alpha = 0.01  # Learning rate
 iterations = 1000
 m = 0  # Initial slope

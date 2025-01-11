@@ -10,6 +10,7 @@ y_pred = np.array([8, 11, 14, 17, 20])  # Predicted values
 squared_errors = (y - y_pred)**2
 mse = np.mean(squared_errors)
 
+
 # Plot the squared errors as discrete points
 plt.figure(figsize=(10, 6))
 plt.scatter(x, squared_errors, color='blue', label='Squared Errors', s=100)  # Markers for errors

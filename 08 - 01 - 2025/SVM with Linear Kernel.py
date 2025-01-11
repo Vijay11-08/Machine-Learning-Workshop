@@ -32,6 +32,7 @@ plt.plot(x_hyperplane, y_margin_lower, 'r--')
 support_vectors = model.support_vectors_
 plt.scatter(support_vectors[:, 0], support_vectors[:, 1], s=200, facecolors='none', edgecolors='k', label="Support Vectors")
 
+
 # Plot customization
 plt.title("SVM with Linear Kernel", fontsize=14)
 plt.xlabel("Feature 1", fontsize=12)

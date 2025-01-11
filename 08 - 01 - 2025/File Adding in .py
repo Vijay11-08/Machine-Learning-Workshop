@@ -3,6 +3,7 @@
 df.isnull().sum()
 
 
+
 df['balcony']=df['balcony'].fillna(df['balcony'].mean())
 df.isna().sum()
 

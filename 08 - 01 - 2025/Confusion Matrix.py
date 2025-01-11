@@ -35,6 +35,7 @@ y_pred = svm_model.predict(X_test)
 accuracy = accuracy_score(y_test, y_pred)
 print(f"Accuracy: {accuracy * 100:.2f}%")
 
+
 # Print classification report and confusion matrix
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))

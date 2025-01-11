@@ -23,6 +23,7 @@ plt.scatter(x, squared_errors, color='blue', label='Squared Errors', s=100, mark
 # MSE reference line
 plt.axhline(y=mse, color='red', linestyle='--', label=f'MSE = {mse:.2f}')
 
+
 # Chart details
 plt.title('Visualization of Actual Values, Predictions, and Errors', fontsize=14)
 plt.xlabel('x (Input Data)', fontsize=12)

@@ -9,6 +9,7 @@ y = np.array([5, 7, 9, 11, 13])
 model = LinearRegression()
 model.fit(x, y)
 
+
 # Predicted values
 y_pred = model.predict(x)
 

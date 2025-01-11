@@ -8,6 +8,7 @@ c = 1  # Y-intercept
 # Step 3: Generate x-values
 x = np.linspace(0, 10, 100)  # 100 points between 0 and 10
 
+
 # Step 4: Calculate y-values
 y = m * x + c
 

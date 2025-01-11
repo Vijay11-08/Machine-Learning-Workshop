@@ -25,6 +25,7 @@ xx, yy = np.meshgrid(np.linspace(X[:, 0].min(), X[:, 0].max(), 500),
 
 # Get the decision function
 Z = svm_model.decision_function(np.c_[xx.ravel(), yy.ravel()])
+
 Z = Z.reshape(xx.shape)
 
 # Plot the decision boundary and margin

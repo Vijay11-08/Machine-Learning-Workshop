@@ -12,6 +12,7 @@ x_values = [1, 2, 3, 4, 5]  # Specific x-values
 y_values = [m * x + c for x in x_values]
 
 # Step 5: Create a bar chart
+
 plt.bar(x_values, y_values, color='skyblue')
 plt.xlabel('x - Independent Variable')
 plt.ylabel('y - Dependent Variable')
