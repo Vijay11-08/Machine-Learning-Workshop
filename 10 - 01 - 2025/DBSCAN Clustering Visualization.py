@@ -4,6 +4,7 @@ import matplotlib.pyplot as plt
 colors = {'Core': 'blue', 'Border': 'green', 'Noise': 'red'}
 plt.figure(figsize=(10, 8))
 
+
 for i, (x, y) in enumerate(points):
     plt.scatter(x, y, color=colors[point_types[i]], label=point_types[i] if point_types[i] not in plt.gca().get_legend_handles_labels()[1] else "")
     plt.text(x + 0.1, y, f"P{i+1}", fontsize=10)  # Annotate points

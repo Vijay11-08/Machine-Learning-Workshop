@@ -36,6 +36,7 @@ for _ in range(episodes):
         # Take action and observe reward and next state
         reward, next_state = rewards.get((state, action), (0, state))
 
+ 
         # Update Q-value
         Q[state][action] += alpha * (reward + gamma * max(Q[next_state].values()) - Q[state][action])
 

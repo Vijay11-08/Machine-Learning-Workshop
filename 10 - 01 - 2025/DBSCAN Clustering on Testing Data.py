@@ -60,6 +60,7 @@ plt.figure(figsize=(8, 6))
 unique_labels_test = set(test_labels)
 colors_test = [plt.cm.Spectral(each) for each in np.linspace(0, 1, len(unique_labels_test))]
 
+
 for k, col in zip(unique_labels_test, colors_test):
     if k == -1:
         col = [0, 0, 0, 1]  # Black for noise

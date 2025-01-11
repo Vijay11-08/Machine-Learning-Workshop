@@ -69,6 +69,7 @@ env = Gridworld(size=4)
 # Train the agent
 Q, rewards = q_learning(env, episodes=1000)
 
+
 # Visualize the total rewards per episode
 plt.plot(rewards)
 plt.title("Total Rewards Per Episode")

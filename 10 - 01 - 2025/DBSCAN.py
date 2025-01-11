@@ -7,6 +7,7 @@ data_table_with_points = {
     "Type": point_types
 }
 
+
 # Convert to DataFrame for better visualization
 data_table_with_points_df = pd.DataFrame(data_table_with_points)
 data_table_with_points_df

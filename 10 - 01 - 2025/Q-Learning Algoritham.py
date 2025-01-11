@@ -30,6 +30,7 @@ for _ in range(episodes):
         # Choose action (ε-greedy policy)
         if random.uniform(0, 1) < epsilon:
             action = random.choice(actions)  # Explore
+   
         else:
             action = max(Q[state], key=Q[state].get)  # Exploit
 

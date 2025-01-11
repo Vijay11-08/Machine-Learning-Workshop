@@ -11,6 +11,7 @@ X, _ = make_blobs(n_samples=100, centers=3, cluster_std=1.5, random_state=42)
 # Perform hierarchical clustering using Ward's method
 linkage_matrix = linkage(X, method='ward')
 
+
 # Plot the dendrogram
 plt.figure(figsize=(10, 7))
 dendrogram(linkage_matrix, truncate_mode="lastp", p=10, leaf_rotation=45, leaf_font_size=12)

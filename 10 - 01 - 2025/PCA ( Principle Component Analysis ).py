@@ -15,6 +15,7 @@ X_centered = X - X_mean
 pca = PCA(n_components=1)  # Reduce to 1 principal component
 X_pca = pca.fit_transform(X_centered)
 
+
 # Print results
 print("Principal Components:\n", pca.components_)
 print("Explained Variance Ratio:\n", pca.explained_variance_ratio_)

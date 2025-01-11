@@ -30,6 +30,7 @@ min_confidence = 0.5  # 50% minimum confidence
 rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=min_confidence,num_itemsets=1)
 print("\nAssociation Rules:\n", rules)
 
+
 # Visualize support vs confidence
 plt.figure(figsize=(10, 6))
 plt.scatter(rules['support'], rules['confidence'], alpha=0.6, edgecolors='k')

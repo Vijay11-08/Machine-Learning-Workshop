@@ -20,6 +20,7 @@ plt.show()
 inertia = []  # Sum of squared distances for each k
 k_values = range(1, 11)  # Number of clusters to test
 
+
 for k in k_values:
     kmeans = KMeans(n_clusters=k, random_state=42)
     kmeans.fit(X)

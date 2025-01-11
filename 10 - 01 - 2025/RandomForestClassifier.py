@@ -35,6 +35,7 @@ pca_reduced = PCA(n_components=components_to_keep)
 X_train_reduced = pca_reduced.fit_transform(X_train_scaled)
 X_test_reduced = pca_reduced.transform(X_test_scaled)
 
+
 # Train a classifier on the reduced data
 classifier = RandomForestClassifier(random_state=42)
 classifier.fit(X_train_reduced, y_train)

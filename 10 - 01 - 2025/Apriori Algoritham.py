@@ -41,6 +41,7 @@ plt.show()
 rules['antecedents'] = rules['antecedents'].apply(lambda x: ', '.join(list(x)))
 rules['consequents'] = rules['consequents'].apply(lambda x: ', '.join(list(x)))
 
+
 lift_matrix = rules.pivot(index='antecedents', columns='consequents', values='lift').fillna(0)
 plt.figure(figsize=(12, 8))
 plt.title('Lift Heatmap')

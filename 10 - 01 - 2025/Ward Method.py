@@ -49,6 +49,7 @@ plt.xlabel("Feature 1")
 plt.ylabel("Feature 2")
 plt.show()
 
+
 # Evaluate testing clusters with silhouette score
 test_score = silhouette_score(X_test, test_labels)
 print(f"Silhouette Score for Testing Data: {test_score:.2f}")
