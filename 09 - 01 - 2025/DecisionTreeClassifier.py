@@ -24,6 +24,7 @@ plot_tree(model, feature_names=iris.feature_names, class_names=iris.target_names
 plt.title("Decision Tree Visualization (Iris Dataset)")
 plt.show()
 
+
 # Textual representation of the tree
 tree_rules = export_text(model, feature_names=iris.feature_names)
 print("\nDecision Tree Rules:\n", tree_rules)

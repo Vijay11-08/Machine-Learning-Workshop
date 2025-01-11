@@ -27,6 +27,7 @@ plt.show()
 # Confusion Matrix
 cm = confusion_matrix(y_test, y_pred)
 
+
 plt.figure(figsize=(6, 6))
 sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', xticklabels=['Setosa', 'Versicolor'], yticklabels=['Setosa', 'Versicolor'])
 plt.title('Confusion Matrix')

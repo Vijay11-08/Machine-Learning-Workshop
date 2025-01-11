@@ -26,6 +26,7 @@ y_pred = model.predict(X_test)
 print("\nClassification Report:")
 print(classification_report(y_test, y_pred))
 
+
 # Confusion Matrix
 conf_matrix = confusion_matrix(y_test, y_pred)
 sns.heatmap(conf_matrix, annot=True, fmt='d', cmap='Blues', xticklabels=iris.target_names, yticklabels=iris.target_names)

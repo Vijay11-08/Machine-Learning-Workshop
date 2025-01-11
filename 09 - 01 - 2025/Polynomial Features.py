@@ -23,6 +23,7 @@ plt.ylabel("y")
 plt.legend()
 plt.show()
 
+
 # Output coefficients
 print("Coefficients:", model.coef_)
 print("Intercept:", model.intercept_)

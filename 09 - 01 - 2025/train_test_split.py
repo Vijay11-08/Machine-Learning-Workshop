@@ -33,6 +33,7 @@ plt.xlabel("Predicted")
 plt.ylabel("Actual")
 plt.show()
 
+
 # Visualize decision boundary
 plot_decision_boundary(X_train, y_train, model)
     

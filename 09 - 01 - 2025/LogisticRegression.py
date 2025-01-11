@@ -9,6 +9,7 @@ pass_fail = np.array([0, 0, 1, 1, 1])
 log_reg = LogisticRegression()
 log_reg.fit(hours_of_study, pass_fail)
 
+
 # Predict the probability of passing for 33 hours of study
 probability = log_reg.predict_proba([[33]])[0, 1]  # Get the probability for class 1 (pass)
 

@@ -36,6 +36,7 @@ plt.contour(xx, yy, Z, levels=[-1], linewidths=1, colors='red', linestyles='--')
 # Plot support vectors
 plt.scatter(clf.support_vectors_[:, 0], clf.support_vectors_[:, 1], s=150, facecolors='none', edgecolors='k', linewidths=2)
 
+
 # Label the axes and show plot
 plt.title('SVM Linear Kernel: Hyperplane and Margins')
 plt.xlabel('Feature 1')

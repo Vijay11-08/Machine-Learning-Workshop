@@ -19,6 +19,7 @@ y_bin = lb.fit_transform(y)  # One-hot encode the target labels
 model = LogisticRegression(multi_class='ovr', solver='liblinear')
 model.fit(X, y)
 
+
 # Visualize the decision boundary
 def plot_decision_boundary(X, y, model):
     x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1

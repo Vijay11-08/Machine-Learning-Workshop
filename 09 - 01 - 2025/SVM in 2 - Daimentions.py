@@ -16,6 +16,7 @@ plt.title('SVM in 2D (Linear)')
 plt.xlabel('Feature 1')
 plt.ylabel('Feature 2')
 
+
 # Plot the decision boundary
 ax = plt.gca()
 xlim = ax.get_xlim()

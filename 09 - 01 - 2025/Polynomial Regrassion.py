@@ -21,6 +21,7 @@ plt.ylabel("y")
 plt.legend()
 plt.show()
 
+
 # Output coefficients
 print("Slope (m):", model.coef_[0])
 print("Intercept (c):", model.intercept_)

@@ -28,6 +28,7 @@ xx, yy, zz = np.meshgrid(xx, yy, zz)
 decision_values = clf_3d.decision_function(np.c_[xx.ravel(), yy.ravel(), zz.ravel()])
 decision_values = decision_values.reshape(xx.shape)
 
+
 # Plot the decision boundary
 #ax.contourf(xx, yy, zz, decision_values, levels=[0], cmap='coolwarm', alpha=0.3)
 

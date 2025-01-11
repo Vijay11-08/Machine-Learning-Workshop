@@ -15,6 +15,7 @@ print("x values:", x)
 print("z values (5x + 10):", z)
 print("Sigmoid values:", sigmoid)
 
+
 # Plotting the sigmoid function
 plt.figure(figsize=(8, 6))
 plt.plot(x, sigmoid, marker='o', color='blue', label='Sigmoid Function')

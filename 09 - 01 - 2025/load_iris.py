@@ -13,6 +13,7 @@ y = iris.target
 model = SVC(kernel='linear')
 model.fit(X, y)
 
+
 # Visualize the decision boundary
 def plot_decision_boundary(X, y, model):
     x_min, x_max = X[:, 0].min() - 1, X[:, 0].max() + 1
